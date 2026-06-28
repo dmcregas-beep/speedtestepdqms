@@ -5,8 +5,8 @@ import time
 import random
 from datetime import datetime
 
-# URL из вашего запроса
-URL = "https://www.qms.ru/api/exam_result"
+# URL ИЗМЕНЁН!
+URL = "https://speedtest.ru/api/exam_result"
 
 # Заголовки (обязательны)
 HEADERS = {
@@ -22,7 +22,7 @@ HEADERS = {
 # Доступные тарифы
 TARIFFS = [40, 60, 100, 130, 200, 300, 400, 500]
 
-# Шаблон данных
+# Шаблон данных - УДАЛЕН attr_2, ИЗМЕНЕН attr_4
 TEMPLATE_DATA = {
     "download": None,
     "upload": None,
@@ -41,9 +41,9 @@ TEMPLATE_DATA = {
     "vpn_flag": 0,
     "ya_user": "1775491083143397116",
     "rtk_nls": None,
-    "attr_2": "cookie_accept",
+    # "attr_2": "cookie_accept",  # <-- УДАЛЕНО
     "attr_3": "multi",
-    "attr_4": "2.7.2",
+    "attr_4": "2.7.4",          # <-- ИЗМЕНЕНО
     "country": "Россия",
     "timezone": "Asia/Irkutsk",
     "network_type": "wi-fi",
