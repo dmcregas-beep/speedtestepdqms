@@ -7,7 +7,7 @@ import random
 from datetime import datetime
 
 # URL ИЗМЕНЁН!
-URL = ""
+URL = "https://speedtest.ru/api/exam_result"
 
 # Заголовки (обязательны)
 HEADERS = {
